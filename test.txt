@@ -1,0 +1,3 @@
+A test file.
+
+This is an example of my blockchain editor. Every edit has a hash.

@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>History of {{ filename }}</title>
+</head>
+<body>
+<h1>History of {{ filename }}</h1>
+<p>{% for hash in hashes %}
+<a style="color:blue" href="/{{ hash }}">{{ hash }}</a><br>
+{% endfor %}</p>
+</body>
+</html>
